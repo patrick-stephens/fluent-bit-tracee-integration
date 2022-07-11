@@ -19,3 +19,7 @@ I would also suggest running a fresh stack each time:
 ```shell
 $ docker-compose up --force-recreate --always-recreate-deps --abort-on-container-exit --remove-orphans
 ```
+
+## Other endpoints
+
+See https://calyptia.com/2022/03/23/how-to-send-openshift-logs-and-metrics-to-datadog-elastic-and-grafana/ for a post on how to configure Fluent Bit to send to Grafana Cloud, Elastic Cloud, Datadog, etc. so you can report your eBPF monitoring there.
