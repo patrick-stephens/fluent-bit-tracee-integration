@@ -13,6 +13,8 @@ $ docker-compose up
 
 The whole stack should spin up and in a minute or so Grafana should start receiving data, you can log in as `admin:admin` at `http://localhost:3000`.
 
+![Example log dashboard](./resources/Example-Logs-Dashboard.png "Example log dashboard")
+
 I would also suggest running a fresh stack each time:
 ```shell
 $ docker-compose up --force-recreate --always-recreate-deps --abort-on-container-exit --remove-orphans
